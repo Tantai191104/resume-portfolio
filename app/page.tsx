@@ -11,7 +11,7 @@ export default function Home() {
       <div className="col-span-4 bg-green-200 p-4 rounded-[3px] h-[600px] flex items-center justify-center">
         <User />  
       </div>
-      <div className="col-span-6 border-black/[0.5] border-[0.8px] rounded-[3px] p-4"><AboutCard/></div>
+      <div className="col-span-6 border-black/[0.5] border-[0.8px] rounded-[3px] overflow-hidden shadow-[6px 9px 19px -1px rgb(158, 158, 158)]"><AboutCard/></div>
     </main>
   );
 }

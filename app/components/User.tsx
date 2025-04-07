@@ -13,14 +13,14 @@ export default function User() {
           style={{
             clipPath: "polygon(0 0, 100% 0, 100% 90%, 50% 100%, 0 90%)",
             overflow: "hidden",
-            width: "100%", 
-            height: "100%", 
+            width: "100%",
+            height: "100%",
           }}
         >
           <Image
             src="/images/avatar11.jpeg"
             alt="User Picture"
-            layout="responsive" 
+            layout="responsive"
             width={300}
             height={200}
             className="object-cover w-full h-full border-black border-2"
@@ -53,9 +53,11 @@ export default function User() {
         </div>
       </section>
 
-      <section className="row-span-2 w-full flex justify-evenly items-center p-4 border-black/[.2] border-t-[0.8px]">
-        <div className="font-bold text-xl mt-1 cursor-pointer">Download CV</div>
-        <div className="font-bold text-xl mt-1 cursor-pointer pl-4">
+      <section className="row-span-2 w-full flex justify-between items-center p-2 border-black/[.2] border-t-[0.8px]">
+        <div className="w-1/2 flex justify-center items-center font-bold text-xl mt-2 cursor-pointer hover:text-green-400">
+          Download CV
+        </div>
+        <div className="w-1/2 flex justify-center items-center font-bold text-xl mt-2 cursor-pointer">
           Contact me
         </div>
       </section>
