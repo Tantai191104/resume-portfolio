@@ -1,3 +1,4 @@
+import AboutCard from "./components/AboutCard";
 import Sidebar from "./components/sidebar/Sidebar";
 import User from "./components/User";
 
@@ -10,7 +11,7 @@ export default function Home() {
       <div className="col-span-4 bg-green-200 p-4 rounded-[3px]">
         <User />  
       </div>
-      <div className="col-span-6 bg-blue-200 p-4">25%</div>
+      <div className="col-span-6 bg-blue-200 p-4"><AboutCard/></div>
     </main>
   );
 }

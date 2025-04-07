@@ -34,15 +34,15 @@ const TypewriterEffect = () => {
   };
 
   useEffect(() => {
-    type(); // Start animation
+    type(); 
 
     return () => {
-      if (timeoutRef.current) clearTimeout(timeoutRef.current); // Clean up
+      if (timeoutRef.current) clearTimeout(timeoutRef.current); 
     };
   }, []);
 
   return (
-    <div className="text-[#74070E] text-2xl font-semibold animate-pulse tracking-wide">
+    <div className="text-[#74070E] text-xl font-semibold animate-pulse tracking-wide">
       {text}
       <span className="animate-blink">|</span>
     </div>
