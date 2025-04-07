@@ -5,3 +5,6 @@ export { default as ConnectWithoutContactIcon } from "@mui/icons-material/Connec
 export { default as GitHubIcon } from "@mui/icons-material/GitHub";
 export { default as FacebookIcon } from "@mui/icons-material/Facebook";
 export { default as LinkedInIcon } from "@mui/icons-material/LinkedIn";
+export { default as DownloadIcon } from "@mui/icons-material/Download";
+export { default as NearMeIcon } from "@mui/icons-material/NearMe";
+export { default as ResumeIcon } from "@mui/icons-material/FeaturedPlayList";
