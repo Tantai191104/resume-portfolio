@@ -13,7 +13,7 @@ import TypewriterEffect from "./TypewriterEffect";
 
 export default function User() {
   return (
-    <div className="flex flex-col items-center text-center h-full w-full gap-6">
+    <div className="flex flex-col items-center text-center h-auto min-h-[50vh] w-full max-w-[500px]">
       {/* Ảnh đại diện */}
       <div className="w-full">
         <div
@@ -33,7 +33,7 @@ export default function User() {
       </div>
 
       {/* Tên + Typewriter + Icon */}
-      <div className="flex flex-col justify-center items-center gap-3 px-2">
+      <div className="flex flex-col justify-center items-center gap-3 px-2 md:gap-0 md:px-0">
         <h1 className="text-2xl sm:text-xl font-semibold">Nguyễn Tấn Tài</h1>
         <div className="text-sm sm:text-xs">
           <TypewriterEffect />
@@ -60,7 +60,7 @@ export default function User() {
       </div>
 
       {/* Nút dưới cùng */}
-      <div className="w-full flex flex-col sm:flex-row items-center border-t border-black/20 text-sm sm:text-base pt-4 mt-auto">
+      <div className="w-full flex flex-col sm:flex-row items-center border-t border-black/20 text-sm sm:text-base mt-auto">
         <div className="group w-full sm:w-1/2 flex justify-center items-center text-gray-500 font-semibold py-4 cursor-pointer hover:text-green-900 gap-2 border-b sm:border-b-0 sm:border-r border-black/20">
           Download CV
           <span className="transition-transform duration-200 group-hover:-translate-y-1">

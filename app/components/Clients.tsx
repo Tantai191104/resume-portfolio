@@ -11,7 +11,7 @@ export default function Clients() {
           lients
         </p>
       <div className="grid grid-cols-4 divide-x divide-gray-200 border border-gray-200 rounded-md overflow-hidden bg-white shadow-md">
-        <div className="flex items-center justify-center h-28">
+        <div className="flex items-center justify-center h-28 cursor-pointer">
           <Image
             src="/images/google.svg"
             alt="Google"
@@ -20,7 +20,7 @@ export default function Clients() {
             className="h-10 grayscale opacity-80 hover:opacity-100 transition"
           />
         </div>
-        <div className="flex items-center justify-center h-28">
+        <div className="flex items-center justify-center h-28 cursor-pointer">
           <Image
             src="/images/upwork.svg"
             alt="Upwork"
@@ -29,7 +29,7 @@ export default function Clients() {
             className="h-10 grayscale opacity-80 hover:opacity-100 transition"
           />
         </div>
-        <div className="flex items-center justify-center h-28">
+        <div className="flex items-center justify-center h-28 cursor-pointer">
           <Image
             src="/images/linkedin.svg"
             alt="LinkedIn"
@@ -38,7 +38,7 @@ export default function Clients() {
             className="h-10 grayscale opacity-80 hover:opacity-100 transition"
           />
         </div>
-        <div className="flex items-center justify-center h-28">
+        <div className="flex items-center justify-center h-28 cursor-pointer">
           <Image
             src="/images/firefox.svg"
             alt="Firefox"

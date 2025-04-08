@@ -37,7 +37,7 @@ const educations = [
 
 export default function ResumeSection() {
   return (
-    <section className="flex flex-col gap-10 bg-white p-10 rounded-lg h-full w-full ml-5">
+    <section className="flex flex-col gap-10 bg-white p-10 rounded-lg h-full w-full">
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
         <div>
           <h3 className="flex items-center gap-2 text-green-600 font-bold text-lg mb-6">
